@@ -1,0 +1,153 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+
+
+
+.global {
+    padding: 50px;
+    color: black;
+    margin-top: 75px;
+    opacity: 0.9;
+}
+
+
+
+.global h6 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+
+.global .social {
+    width: 100%;
+    text-align: center;
+    padding: 100px;
+    padding-bottom: 0px;
+    border-top: 0px solid white;
+
+}
+
+.global .social a {
+    font-size: 44px;
+    width: 90px;
+    height: 90px;
+    line-height: 79px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 3px solid rgb(0, 97, 186);
+    box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.4);
+    margin: 10px;
+    color: black;
+    opacity: 0.7;
+    transition: 0.3s ease-in-out;
+}
+
+.global .social a:hover {
+    opacity: 0.9;
+    box-shadow: 0px 1px 3px 2px rgba(255, 255, 255, 0.9);
+}
+
+.global .copyright {
+    text-align: center;
+    padding-top: 24px;
+    font-weight: 500;
+    opacity: 0.8;
+    font-size: 16px;
+}
+
+
+.hero {
+    position: relative;
+    width: 97%;
+    height: 100vh;
+    background: white;
+}
+
+nav {
+    display: flex;
+    width: 84%;
+    margin: 0 auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 16px;
+    margin: 30px 0;
+
+
+}
+
+nav ul li a:hover {
+    color: #0039A6;
+    text-decoration: underline;
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.detel {
+    text-align: center;
+    position: relative;
+    left: 459px;
+    top: 2px;
+
+}
+
+.detel h1 {
+    text-align: center;
+    font-size: 60px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+span {
+    text-align: center;
+    font-size: 80px;
+    color: rgb(130, 118, 94);
+}
+
+.detel p {
+    text-align: center;
+    color: #555;
+    line-height: 22px;
+}
+
+.detel a {
+    text-align: center;
+    background: rgb(0, 97, 186);
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.detel a:hover {
+    text-align: center;
+    transform: scale(1.1);
+}
